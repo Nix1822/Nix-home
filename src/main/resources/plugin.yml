@@ -1,0 +1,20 @@
+name: NixHome
+version: '${project.version}'
+main: com.nix.nixhome.NixHome
+api-version: '1.21'
+author: Nix
+description: Simple homes system
+
+commands:
+  sethome:
+    description: Save a home at your location
+    usage: /sethome [name]
+  home:
+    description: Teleport to a home
+    usage: /home [name]
+  delhome:
+    description: Delete a home
+    usage: /delhome [name]
+  homes:
+    description: List your homes
+    usage: /homes
